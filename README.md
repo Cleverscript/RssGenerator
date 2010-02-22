@@ -1,6 +1,6 @@
 RssGenerator
 =============
-RssGenerator - это компонент для Joomla 1.5! котрый позволяет создавать RSS ленту новостей для вашего сайта или блога, включает в себя com_rssgenerator и mod_rssgnerator
+RssGenerator - a component for Joomla 1.5! buyout allows you to create RSS news to your website or blog, includes com_rssgenerator and mod_rssgnerator
 
 How to Use
 -------------
