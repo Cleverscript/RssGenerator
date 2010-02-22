@@ -9,7 +9,7 @@ Set com_rssgenerator as a normal component of joomla, then set mod_rssgenerator 
 #PHP
 /* RssGenerator instance */
 
-
+<?php
 class RssGeneratorViewRssGenerator extends JView
 {
 function display()
@@ -78,7 +78,7 @@ function display()
 
     }
 }
-
+?>
 
 Screenshots
 -----------
