@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+    <name>RSS Generator</name>
+    <author>Cleverscript</author>
+    <creationDate>Febrary 2010</creationDate>
+    <copyright>Free</copyright>
+    <license>GPL 2.0</license>
+    <authorEmail>toorr2p@bigmir.net</authorEmail>
+    <authorUrl>http://cleverscript.ru/</authorUrl>
+    <version>0.0.1</version>
+    <description>Module generate rss xml</description>
+   
+    <files>
+        <filename module="mod_rssgenerator">mod_rssgenerator.php</filename>
+		<filename>helper.php</filename>
+        <filename>index.html</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+		<filename>tmpl/img/index.html</filename>
+		<filename>tmpl/img/rss.gif</filename>
+    </files>
+    <params>
+		<param name="feed" type="radio" default="0" label="Select type feed url" description="Какой урл фида использовать?">
+			<option value="0">Original Feed</option>
+			<option value="1">Feedburner Feed</option>
+		</param>
+		<param name="feedburner" type="text" default="" size="15" label="Link Feedburner" description="Укажите ссылку на фид из Feedburner" />
+    </params>
+</install>

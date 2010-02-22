@@ -1,0 +1,55 @@
+<?xml-stylesheet href="/templates/rss/rss2full.xsl" type="text/xsl" media="screen"?><rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><language>ru</language><title>Cleverscript</title><link>W:\home\localhost\www\cleverscript_ru</link><description>cleveerscript.ru</description><item><title>Mootools - PageMooSlider  v1.0</title><link>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/15-pagemooslider.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/15-pagemooslider.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/15-pagemooslider.html'><img alt='Mootools - PageMooSlider  v1.0' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/pagemooslider.gif' /></a><p>
+Проблема навигации по страницам сайта всегда была актуальна, и таковой будет всегда так как 
+
+если сайт может содержать большое 
+количество страниц, то необходимо обеспечить удобное и интуитивно-понятное перемещение для 
+
+пользователя по этим страницам.
+
+
+Решений данной задачи множество, к примеру реализация навигации в Joomla 1.5! организована с 
+
+помощью плагина для навигации 
+"pagenavigation.php" который находиться по адресу /plugins/content/pagenavigation.php, и 
+
+выполняет все манипуляции по 
+разбивке материалов по страницам, этот плагин написан на PHP и в данной статье он нам не 
+
+интересен, так как в этой статье мы 
+рассмотрим плагин для навигации написанный на Javascript и использующий библиотеку Mootools 
+
+v1.2.4.
+
+
+Итак рассмотрим данный плагин б...<a title="Mootools - PageMooSlider  v1.0" href="http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/15-pagemooslider.html">Читать...</a></p>]]></description><pubDate>2010-02-14 23:18:16</pubDate></item><item><title>Создание Модуля для Joomla 1.5!</title><link>http://localhost/cleverscript_ru//cleverscript_ru/cms/joomla/12--joomla-15.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/cms/joomla/12--joomla-15.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/cms/joomla/12--joomla-15.html'><img alt='РЎРѕР·РґР°РЅРёРµ РњРѕРґСѓР»СЏ РґР»СЏ Joomla 1.5!' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/module_mgm.gif' /></a><p>В данной статье рассматривается создание модуля для Joomla 1.5!, но эта статья не будет описывать саздание модуля типо "Hellow World" цель ее другая - показать на реальном примере возможности которые заложены модулях Joomla!.
+Как известно модули вызываются на определенных участках (позициях) страницы и отображают определенный контент в зависимости от их типа, также модули могут входить в состав компонента и использоваться совместно с плагинами, Joomla по умолчанию в комплекте содержит некоторые стандартные модули которые выполняют необходимые функции, такие как отображение пунктов меню, новости, произвольный HTML код и пр.
+
+Модули могут иметь различный функционал, но наш модуль будет выполнять немного нестандартную задачу - он будет отображать все модули из определенной позиции, эт...<a title="РЎРѕР·РґР°РЅРёРµ РњРѕРґСѓР»СЏ РґР»СЏ Joomla 1.5!" href="http://localhost/cleverscript_ru//cleverscript_ru/cms/joomla/12--joomla-15.html">Читать...</a></p>]]></description><pubDate>2010-01-11 15:55:50</pubDate></item><item><title>Mootools  clone()</title><link>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/8-clone.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/8-clone.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/8-clone.html'><img alt='Mootools  clone()' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/clon.gif' /></a><p>
+HYRRQNC6AVP2
+Клон (англ. clone, от греч. ???? — «веточка») — система, сделанная по образцу другой. Это может быть аппаратное устройство, программа или даже онлайн-сервис. Может означать  полную или частичную идентичность свойств.
+Под данное описание вполне попадает весьма полезная функция библиотеки Mootools, которая позволяет в прямом смысле слова - "клонировать" узлы DOM в дереве HTML документа.
+ 
+Целесообразность ее  использования  пожалуй можно обьяснить возможностью уменьшить обьем кода. Это достигается за счет того, что нет необходимости создавать новый узел DOM (new Element(...)), его просто нужно "Клонировать", при этом все свойства данного узла также (кроме ID - по понятным причинам...) будут присвое...<a title="Mootools  clone()" href="http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/8-clone.html">Читать...</a></p>]]></description><pubDate>2010-01-03 23:49:03</pubDate></item><item><title>Форма обратной связи на  Ajax</title><link>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/5-form-to-ajax-mootools.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/5-form-to-ajax-mootools.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/5-form-to-ajax-mootools.html'><img alt='Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё РЅР°  Ajax' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/aj.gif' /></a><p>
+ 
+Одним из правил хорошего тона, в плане функционала сайта, является наличие на нем "Формы обратной связи" с помощью которой посетитель ресурса может отправить на E-mail администрации свое предложение, комментарий, претензии и т.п.В данной статье будет рассмотрен один из вариантов создания формы обратной связи для сайта. Для этого может быть использовано множество разных способов, но мы остановимся на применении PHP в связке Ajax &amp; Mootools. Начнем с простого, с HTML формы, в качестве которой будет взят пример c простейшей структурой полей: "имя", "email", тема сообщения "subject", текстовая область "сообщение" и кнопка отправки данных формы на сервер - "отправить".В HTML это выглядит так:
+ 
+
+	...<a title="Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё РЅР°  Ajax" href="http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/5-form-to-ajax-mootools.html">Читать...</a></p>]]></description><pubDate>2009-12-12 09:49:18</pubDate></item><item><title>Position:fixed в Internet Explorer</title><link>http://localhost/cleverscript_ru//cleverscript_ru/css/cross-brouser-html/4-position-fixed.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/css/cross-brouser-html/4-position-fixed.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/css/cross-brouser-html/4-position-fixed.html'><img alt='Position:fixed РІ Internet Explorer' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/ie.gif' /></a><p>
+ 
+Как то раз было необходимо на веб странице использовать position:fixed для формы обратной связи которая выезжает из правой стороны окна при клике на кнопку (jQuery). При этом у формы задается такой CSS:
+ 
+#contactForm {   
+  color:#FFFFFF;   
+  left:0;   
+  margin-left:-400px;   
+  height:450px;   
+  margin-top:-160px;   
+  overflow:hidden;   
+  position:fixed;   
+  top:200px;   
+ width:390px;   
+ z-index:99; 
+}
+ 
+При этом в Opera, FF, Safari отображают этот блок как нужно, фиксируют его расположение относительно верхней точки окна. Но если посмотреть в эту страницу в IE (в любом) то данный фокус работать не будет! Этот блок будет зафиксирован относительно верхней точки контейнера в котором он находится (body),...<a title="Position:fixed РІ Internet Explorer" href="http://localhost/cleverscript_ru//cleverscript_ru/css/cross-brouser-html/4-position-fixed.html">Читать...</a></p>]]></description><pubDate>2009-12-10 23:34:15</pubDate></item><item><title>Всплывающие подсказки mootools</title><link>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/1-mootools.html</link><guid>http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/1-mootools.html</guid><description><![CDATA[<a href='http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/1-mootools.html'><img alt='Р’СЃРїР»С‹РІР°СЋС‰РёРµ РїРѕРґСЃРєР°Р·РєРё mootools' align='left' style='margin-left:20px;border:none;' src='http://localhost/cleverscript_ru/images/stories/mootools.gif' /></a><p> 
+Иногда для полей формы требуется организовать всплывающие подсказки подсказывающие пользователю, что именно вводить в поле формы.Для реализации этого в Joomla 1.5! был выбран Mootools 1.2.3 || Mootools 1.2.4, так как эта библиотека используется как "родная", для данной CMS.Но решение этой задачи исполненное на Mootools 1.2.3 || Mootools 1.2.4, не будет работать в стандартной версии mootools(1.11) которая используется в Joomla1.5 x! Для этого сначало нужно отключить старую версию, и подключить новую(Mootools 1.2.3 || Mootools 1.2.4), подробно описано в статье "Подключаем новый Mootools".И так определимся с целями. Нам нужно выводить подсказки к полям формы, например формы регистрации в Community Builder, хотя там это уже реализовано на jQuery, нам нужн...<a title="Р’СЃРїР»С‹РІР°СЋС‰РёРµ РїРѕРґСЃРєР°Р·РєРё mootools" href="http://localhost/cleverscript_ru//cleverscript_ru/javascript/mootools/1-mootools.html">Читать...</a></p>]]></description><pubDate>2009-12-09 00:10:28</pubDate></item></channel></rss>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<install type="component" version="1.5.0">
+ <name>Rss Generator</name>
+ <creationDate>08.02.2010</creationDate>
+ <author>Cleverscript</author>
+ <authorEmail>toorr2p@bigmir.net</authorEmail>
+ <authorUrl>http://www.cleverscript.ru</authorUrl>
+ <copyright>GNU/GPL</copyright>
+ <license>GRL</license>
+
+ <version>0.0.1</version>
+ <description>Component Generator RSS</description> 
+ 
+<files folder="components/com_rssgenerator">
+  <filename>index.html</filename>
+  <filename>rssgenerator.php</filename>
+  <filename>controller.php</filename>
+  <filename>rss.xml</filename>
+  <filename>blocked.txt</filename>
+  <filename>views/index.html</filename>
+  <filename>views/rssgenerator/index.html</filename>
+  <filename>views/rssgenerator/view.html.php</filename>
+  <filename>views/rssgenerator/tmpl/index.html</filename>
+  <filename>views/rssgenerator/tmpl/default.php</filename>
+  <filename>views/rssgenerator/tmpl/default.xml</filename>
+  <filename>models/index.html</filename>
+  <filename>models/rssgenerator.php</filename>
+ </files>
+ 
+  <install>
+      <sql>
+     
+      </sql>
+   </install>
+   <uninstall>
+      <sql>
+
+      </sql>
+   </uninstall>   
+   
+ <administration>
+  <menu task="default" img="js/ThemeOffice/component.png">Rss Generator</menu>
+  <submenu>
+        <menu link="option=com_rssgenerator">tools</menu>
+  </submenu>
+
+  <files>
+      <filename>rssgenerator.xml</filename>
+  </files>
+  <files folder="administrator/components/com_rssgenerator">
+   <filename>index.html</filename>
+   <filename>rssgenerator.php</filename>
+   <filename>controller.php</filename>
+   <filename>config.xml</filename>
+   <filename>toolbar.rssgenerator.html.php</filename>
+   <filename>toolbar.rssgenerator.php</filename>
+  </files>  
+ </administration>
+</install>

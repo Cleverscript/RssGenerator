@@ -1,0 +1,1 @@
+<?php echo "this blocked file"; ?>

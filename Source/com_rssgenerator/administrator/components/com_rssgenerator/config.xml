@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--The choice of parametres for component,
+is displayed in the administrator of the panel-->
+<config>
+	<params>
+		<param name="vuew" type="list" default="0" label="View" description="Выберите опцию для показа, all-без учета раздела и категори, section - по разделу, category - по категории">
+			<option value="0">all</option>
+			<option value="1">section</option>
+			<option value="2">category</option>
+		</param>
+        <param name="@spacer" type="spacer" default="" label="" description="" />
+		<param name="count" type="text" default="10" label="Количество выводимых записей" description="Укажите количество выводимых записей"/>
+	</params>
+</config>
