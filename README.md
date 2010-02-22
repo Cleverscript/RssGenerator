@@ -20,15 +20,15 @@ function display()
 	define ("PATH_TEMPFILE", JPATH_SITE.DS."components/com_rssgenerator".DS."temp.php");
 	
 
-    //загружаем модель
+    //get Model
 	$model = &$this->getModel();
 
-	//вызываем из нее метод >>> getRss()
+	//get Rss mezood
         $data = $model->getRss();
 
 	//create feed
 	$count = count($data);
-//echo $count;
+
         $header = '<?xml version="1.0" encoding="utf-8"?>';
 		$header = '<?xml-stylesheet href="/templates/rss/rss2full.xsl" type="text/xsl" media="screen"?>';
         $header.='<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">';
@@ -36,7 +36,7 @@ function display()
         $header.='<language>ru</language>';
         $header.='<title>Cleverscript</title>';
         $header.='<link>'.JPATH_SITE.'</link>';
-        $header.='<description>cleveerscript.ru</description>';
+        $header.='<description>site name</description>';
         $footer .= '</channel></rss>';
 
     $lock = fopen(PATH_BLOCKFILE,"a");
