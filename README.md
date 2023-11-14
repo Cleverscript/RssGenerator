@@ -7,6 +7,7 @@ How to Use
 Set com_rssgenerator as a normal component of joomla, then set mod_rssgenerator as a normal module, and configure it.
 
 #PHP
+```php
 <?php
 class RssGeneratorViewRssGenerator extends JView
 {
@@ -77,6 +78,7 @@ function display()
     }
 }
 ?>
+```
 Screenshots
 -----------
 
